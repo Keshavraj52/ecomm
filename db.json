@@ -1,5 +1,28 @@
 {
-    "seller":[
-
-    ]
+  "seller": [
+    {
+      "name": "keshav",
+      "email": "kgp@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Keshavraj ganesh pore ",
+      "email": "poreg79@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Keshavraj pore ",
+      "email": "poreg79@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "prasad pore",
+      "email": "keshavrajpore52@gmail.com",
+      "password": "12345",
+      "id": 4
+    }
+  ]
 }
