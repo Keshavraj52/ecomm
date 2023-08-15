@@ -1,8 +1,12 @@
 .nav {
     margin: 0;
+    padding-top: 1%;
     display: flex;
     justify-content: space-between;
     color: rgb(158, 11, 243);
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
 
 }
 
@@ -11,8 +15,12 @@
     margin-right: 5%;
     margin-top: 5px;
     font-size: 30px;
+    margin-left: 5px;
 }
-
+.nav h1 a{
+    text-decoration: none;
+    color: rgba(177, 226, 43, 0.89);
+}
 .nav ul {
     display: inline-flex;
     list-style-type: none;

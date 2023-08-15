@@ -1,4 +1,4 @@
-body{
+body{margin: 0;
     font-family: sans-serif;
 }
 .container{margin: 0;
@@ -29,4 +29,7 @@ body{
    border: 1px solid blueviolet;
    cursor: pointer;
 
+}
+.error-p{
+    color: red;
 }

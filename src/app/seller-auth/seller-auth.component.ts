@@ -10,10 +10,34 @@ import { signUp } from '../data-type';
 })
 export class SellerAuthComponent implements OnInit {
   constructor(private seller:SellerService, private router:Router){}
+  showLogin=false;
+  authError:string='';
   
-  ngOnInit(): void {}
+  ngOnInit(): void {
+   this.seller.reloadseller()
+  }
   signUp(data:signUp): void {
+    console.warn(data);
    this.seller.userSignUp(data)
+  }
+  login(data:signUp): void {
+    //console.warn(data);
+    this.authError="";
+
+    this.seller.userSignUp(data);
+    this.seller.isloginError.subscribe((isError)=>{
+      if (isError){
+        this.authError="Email or Password is not correct"
+      }
+
+  });
+     }
+  openLogin(){
+    this.showLogin=true
+
+  }
+  openSignup(){
+    this.showLogin=false
   }
 
 }

@@ -7,28 +7,34 @@
       "id": 1
     },
     {
-      "name": "Keshavraj ganesh pore ",
-      "email": "poreg79@gmail.com",
+      "name": "keshav",
+      "email": "abc23@gmail.com",
       "password": "123456",
       "id": 2
     },
     {
-      "name": "Keshavraj pore ",
-      "email": "poreg79@gmail.com",
-      "password": "123456",
+      "name": "",
+      "email": "",
+      "password": "",
       "id": 3
     },
     {
       "name": "prasad pore",
-      "email": "keshavrajpore52@gmail.com",
-      "password": "12345",
+      "email": "gjnv56@gmail.com",
+      "password": "123456",
       "id": 4
     },
     {
-      "name": "datta mama",
-      "email": "datta34@gmail.com",
-      "password": "12345",
+      "name": "Keshavraj ganesh pore ",
+      "email": "kgp453@gmail.com",
+      "password": "123456",
       "id": 5
+    },
+    {
+      "name": "Keshavraj ganesh pore ",
+      "email": "kgp453@gmail.com",
+      "password": "123456",
+      "id": 6
     }
   ]
 }
