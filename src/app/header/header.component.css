@@ -4,8 +4,7 @@
     display: flex;
     justify-content: space-between;
     color: rgb(158, 11, 243);
-    background-color: black;
-    width: 100vw;
+    width: 99vw;
     height: 10vh;
 
 }
@@ -36,7 +35,7 @@
 
 .nav li a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(214, 226, 43);
 }
 
 .nav .search {
@@ -50,15 +49,15 @@
 
 .nav .search input {
     flex: 1;
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: rgb(192, 226, 43);
+    border: 1px solid rgb(171, 226, 43);
     height: 35px;
     border-right: 0px;
 }
 
 .nav .search button {
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: rgb(162, 226, 43);
+    border: 1px solid rgb(156, 226, 43);
     height: 39px;
     border-left: 0px;
 }

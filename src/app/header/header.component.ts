@@ -8,22 +8,32 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
 
-  menuType: string='default';
-  constructor(private route:Router){}
+  menuType: string = 'default';
+  sellerName: string = '';
+  constructor(private route: Router) { }
   ngOInit(): void {
-    this.route.events.subscribe((val:any)=>{
-      if(val.url){
-        if(localStorage.getItem('seller') && val.url.includes('seller')){
+    this.route.events.subscribe((val: any) => {
+      if (val.url) {
+        if (localStorage.getItem('seller') && val.url.includes('seller')) {
           console.warn("in seller area")
-          this.menuType="seller"
+          this.menuType = 'seller';
+          if(localStorage.getItem('seller')){
+            let sellerStrore=localStorage.getItem('seller');
+            let sellerdata=sellerStrore&&JSON.parse(sellerStrore)[0];
+            this.sellerName=sellerdata.name;
+          }
 
-        }else{
+        } else {
           console.warn("outside seller")
-          this.menuType="default"
+          this.menuType = "default"
         }
       }
 
-    })
+    });
+  }
+  logout() {
+    localStorage.removeItem('seller');
+    this.route.navigate(['/']);
   }
 
 }

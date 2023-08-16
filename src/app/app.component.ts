@@ -7,8 +7,8 @@ import { SellerService } from './services/seller.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ecomm';
+  title = 'E-farmmer';
   constructor () {
-    localStorage.setItem("isSellerloggedIn", "false");
+    //localStorage.setItem("isSellerloggedIn", "false");
   }
 }
