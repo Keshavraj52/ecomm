@@ -37,7 +37,7 @@
       "price": "999",
       "color": "black",
       "category": "headphones",
-      "description": "deep bass",
+      "description": "deep bass with nice sound quality",
       "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
       "id": 5
     },
@@ -67,6 +67,15 @@
       "description": "GAMING KEYBOARD AND MOUSE ---- 104 keys, 19 keys non-conflict, multiple keys to work simultaneously;6 button with rgb breathing backlight,imitate mechanical feeling keys and sense of rhythm; emitting character display clearly in dark room.",
       "image": "https://m.media-amazon.com/images/I/718xqJg8i8L._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
       "id": 8
+    },
+    {
+      "name": "Smart Watch Android Fitness Tracker: 1.7\" Smartwatch with Heart Rate SpO2 Sleep Monitor for Men Women, 5ATM Swimming Waterproof Fitness Watches for Android Phones & iPhone Compatible, 112 Sports Modes",
+      "price": "1453",
+      "color": "voilet",
+      "category": "smart watch",
+      "description": "Bigger Screen & Lighter Body Design: 2022 new stylish lightweight (BT 43mm) smart watches,1.7\" large HD LCD screen bring you a better reading and using experience.2.5D glass screen provides a more scratch-resistant wearable experience.DIY personalized watch faces make everything more interesting.",
+      "image": "https://m.media-amazon.com/images/I/71ZtWYZACKL._AC_SX522_.jpg",
+      "id": 9
     }
   ]
 }
