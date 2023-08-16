@@ -33,31 +33,40 @@
   ],
   "product": [
     {
-      "name": "samsung a14",
-      "price": "13999",
-      "color": "blue",
-      "category": "mobile",
-      "description": "good product",
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164358540/in-feature-galaxy-a-535015953?$FB_TYPE_A_JPG$",
-      "id": 1
-    },
-    {
-      "name": "boAt rockers 510",
+      "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
       "price": "999",
-      "color": "blue",
+      "color": "black",
       "category": "headphones",
-      "description": "nice product",
-      "image": "https://vlebazaar.in/image/cache/catalog/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-th/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-the-Ear-550x550h.jpg",
-      "id": 3
+      "description": "deep bass",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
+      "id": 5
     },
     {
-      "name": "Infinix HOT 30i (Marigold, 128 GB)  (8 GB RAM)",
-      "price": "9039",
-      "color": "marigold",
+      "name": "vivo T2x 5G (Glimmer Black, 128 GB)  (6 GB RAM)",
+      "price": "13999",
+      "color": "black",
       "category": "mobile",
-      "description": "\nThe Infinix HOT 30i has a large storage capacity of about 128 GB to store all your data. It has a RAM of up to 16 GB for fast processing. Its large 16.7 cm (6.6) display with 90 Hz refresh rate makes this smartphone easy to view and access. This smartphone has about 5000 Nits brightness making it easy to use even in broad daylight. You can capture captivating images with its 50 MP camera. The LED flash allows you to click attractive images at night. The 5000 mAh battery allows it to last long on a single charge",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/w/x/hot-30i-x669c-infinix-original-imagzyfawjmmcgpg.jpeg?q=70",
-      "id": 4
+      "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/h/e/-original-imagzjhwmsamexfk.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "name": "MOTOROLA G62 5G (Frosted Blue, 128 GB)  (6 GB RAM)",
+      "price": "14999",
+      "color": "frosted blue",
+      "category": "mobile",
+      "description": "With the Moto G62, you can enjoy lag-free gaming, seamless multitasking, and stunning stutter-free graphics. This phone allows you to juggle while savouring entertainment owing to its astounding 16.51 cm (6.5) FHD+ Ultra-smooth display and refresh rate of 120 Hz. In addition, you can perform excellently without the smartphone overheating thanks to the Snapdragon 695 5G processor and 6 GB of RAM. Moreover, this phone's 50 MP main camera allows you to capture breathtaking images with incredible imagery",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/t/6/g/-original-imagh29eknx3cavh.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "Keyboard and Mouse Gaming LED Wired Combo with Emitting Character Keyboard 4800DPI 2 Side Button USB Mouse Rainbow Backlit Mechanical Feeling Compatible with PC Raspberry Pi Mac Xbox one ps4",
+      "price": "1666",
+      "color": "RGB led",
+      "category": "keyboard and mouse",
+      "description": "GAMING KEYBOARD AND MOUSE ---- 104 keys, 19 keys non-conflict, multiple keys to work simultaneously;6 button with rgb breathing backlight,imitate mechanical feeling keys and sense of rhythm; emitting character display clearly in dark room.",
+      "image": "https://m.media-amazon.com/images/I/718xqJg8i8L._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
+      "id": 8
     }
   ]
 }

@@ -1,5 +1,6 @@
 <div class="product-list">
     <h1>All product list</h1>
+    <p>{{productMessage}}</p>
     <table >
         <thead>
             <tr>
@@ -9,6 +10,7 @@
                 <th>color</th>
                 <th>category</th>
                 <th>description</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +21,8 @@
                 <td>{{item.color}}</td>
                 <td>{{item.category}}</td>
                 <td>{{item.description}}</td>
+                <td><fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                    </td>
             </tr>
         </tbody>
     </table>
