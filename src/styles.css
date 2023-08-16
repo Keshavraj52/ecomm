@@ -33,3 +33,6 @@ body{margin: 0;
 .error-p{
     color: red;
 }
+.p_message{
+    color: rgb(38, 235, 38);
+}

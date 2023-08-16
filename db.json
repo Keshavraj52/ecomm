@@ -29,29 +29,35 @@
       "email": "kgp453@gmail.com",
       "password": "123456",
       "id": 5
+    }
+  ],
+  "product": [
+    {
+      "name": "samsung a14",
+      "price": "13999",
+      "color": "blue",
+      "category": "mobile",
+      "description": "good product",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164358540/in-feature-galaxy-a-535015953?$FB_TYPE_A_JPG$",
+      "id": 1
     },
     {
-      "name": "Keshavraj ganesh pore ",
-      "email": "kgp453@gmail.com",
-      "password": "123456",
-      "id": 6
+      "name": "boAt rockers 510",
+      "price": "999",
+      "color": "blue",
+      "category": "headphones",
+      "description": "nice product",
+      "image": "https://vlebazaar.in/image/cache/catalog/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-th/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-the-Ear-550x550h.jpg",
+      "id": 3
     },
     {
-      "name": "prasad pore",
-      "email": "gjnv56@gmail.com",
-      "password": "12345",
-      "id": 7
-    },
-    {
-      "name": "prasad pore",
-      "email": "gjnv56@gmail.com",
-      "password": "12345",
-      "id": 8
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 9
+      "name": "Infinix HOT 30i (Marigold, 128 GB)  (8 GB RAM)",
+      "price": "9039",
+      "color": "marigold",
+      "category": "mobile",
+      "description": "\nThe Infinix HOT 30i has a large storage capacity of about 128 GB to store all your data. It has a RAM of up to 16 GB for fast processing. Its large 16.7 cm (6.6) display with 90 Hz refresh rate makes this smartphone easy to view and access. This smartphone has about 5000 Nits brightness making it easy to use even in broad daylight. You can capture captivating images with its 50 MP camera. The LED flash allows you to click attractive images at night. The 5000 mAh battery allows it to last long on a single charge",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/w/x/hot-30i-x669c-infinix-original-imagzyfawjmmcgpg.jpeg?q=70",
+      "id": 4
     }
   ]
 }
