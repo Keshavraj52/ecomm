@@ -8,6 +8,29 @@
 			<p>{{item.description}}</p>
 		</div>
 	</ng-template>
-	
-	
 </ngb-carousel>
+<div class="product-list-wrapper">
+	<h1>Trendy Product</h1>
+	<div class="row">
+		<div class="col-sm-3" *ngFor="let item of trendyProducts">
+			<div class="product-item">
+				<img src="{{item.image}}" alt="">
+
+				<div class="product-details">
+					<h6 class="product-head">{{item.name}}</h6>
+					<div class="product-price">
+						<h6>{{item.price}}</h6>
+					</div>
+					<div class="product-color">
+						<h6>{{item.color}}</h6>
+					</div>
+					<div class="product-footer">
+						<a href="">view Details</a>
+						<a href="">Add to cart</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

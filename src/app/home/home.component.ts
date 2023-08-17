@@ -7,13 +7,18 @@ import { product } from '../data-type';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit{
-    popularproducts:undefined|product[]
-    constructor(private product:ProductService){}
-    ngOnInit(): void {
-    this.product.popularProducts().subscribe((data)=>{
+export class HomeComponent implements OnInit {
+  popularproducts: undefined | product[]
+  trendyProducts: undefined | product[]
+  constructor(private product: ProductService) { }
+  ngOnInit(): void {
+    this.product.popularProducts().subscribe((data) => {
       console.warn(data);
-      this.popularproducts=data;
+      this.popularproducts = data;
     })
-}
+    this.product.trendyProducts().subscribe((data) => {
+      console.warn(data);
+      this.trendyProducts = data;
+    })
+  }
 }

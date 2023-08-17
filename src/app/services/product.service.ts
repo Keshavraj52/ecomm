@@ -26,7 +26,8 @@ export class ProductService {
   }
   popularProducts(){
     return this.http.get<product[]>('http://localhost:3000/product?_limit=5');
-
-
+  }
+  trendyProducts(){
+    return this.http.get<product[]>('http://localhost:3000/product?_limit=8');
   }
 }

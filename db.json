@@ -42,7 +42,7 @@
       "id": 5
     },
     {
-      "name": "vivo T2x 5G (Glimmer Black, 128 GB)  (6 GB RAM)",
+      "name": "vivo T2x 5G (Glimmer Black, 128 GB) ",
       "price": "13999",
       "color": "black",
       "category": "mobile",
@@ -51,7 +51,7 @@
       "id": 6
     },
     {
-      "name": "MOTOROLA G62 5G (Frosted Blue, 128 GB)  (6 GB RAM)",
+      "name": "MOTOROLA G62 5G (Frosted Blue, 128 GB) ",
       "price": "14999",
       "color": "frosted blue",
       "category": "mobile",
@@ -60,7 +60,7 @@
       "id": 7
     },
     {
-      "name": "Keyboard and Mouse Gaming LED Wired Combo with Emitting Character Keyboard 4800DPI 2 Side Button USB Mouse Rainbow Backlit Mechanical Feeling Compatible with PC Raspberry Pi Mac Xbox one ps4",
+      "name": "Keyboard and Mouse Gaming LED Wired Combo",
       "price": "1666",
       "color": "RGB led",
       "category": "keyboard and mouse",
@@ -69,13 +69,22 @@
       "id": 8
     },
     {
-      "name": "Smart Watch Android Fitness Tracker: 1.7\" Smartwatch with Heart Rate SpO2 Sleep Monitor for Men Women, 5ATM Swimming Waterproof Fitness Watches for Android Phones & iPhone Compatible, 112 Sports Modes",
+      "name": "Smart Watch Android Fitness ",
       "price": "1453",
       "color": "voilet",
       "category": "smart watch",
       "description": "Bigger Screen & Lighter Body Design: 2022 new stylish lightweight (BT 43mm) smart watches,1.7\" large HD LCD screen bring you a better reading and using experience.2.5D glass screen provides a more scratch-resistant wearable experience.DIY personalized watch faces make everything more interesting.",
       "image": "https://m.media-amazon.com/images/I/71ZtWYZACKL._AC_SX522_.jpg",
       "id": 9
+    },
+    {
+      "name": "SAAHO TOMATO SEEDS [TO-3251]",
+      "price": "999",
+      "color": "-",
+      "category": "seeds",
+      "description": "good tomato seeds for farming",
+      "image": "https://www.bighaat.com/cdn/shop/products/Sahoo_1800x1800.jpg?v=1671198625",
+      "id": 10
     }
   ]
 }

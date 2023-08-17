@@ -37,9 +37,9 @@ body{margin: 0;
     color: rgb(38, 235, 38);
 }
 .carousel-caption{
-    background-color: rgba(66, 228, 201, 0.411);
+    background-color: rgba(57, 219, 195, 0.411);
     color: black;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: rgb(71, 178, 221);
