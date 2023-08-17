@@ -1,8 +1,8 @@
 body{margin: 0;
     font-family: sans-serif;
 }
-.container{margin: 0;
-    
+.container{
+    margin: 0;  
     margin-right: 5%;
     color: rgb(140, 172, 25);
 }
@@ -35,4 +35,14 @@ body{margin: 0;
 }
 .p_message{
     color: rgb(38, 235, 38);
+}
+.carousel-caption{
+    background-color: rgba(66, 228, 201, 0.411);
+    color: black;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(71, 178, 221);
+    border-radius: 5px;
+
 }
