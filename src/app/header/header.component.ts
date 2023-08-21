@@ -42,7 +42,6 @@ export class HeaderComponent {
     if (query) {
       const element = query.target as HTMLInputElement;
       this.product.searchProducts(element.value).subscribe((result)=>{
-        console.warn(result)
         if(result.length>5){
           result.length=5;
         }
@@ -52,6 +51,9 @@ export class HeaderComponent {
   }
   hideSearch(){
     this.searchResult=undefined
+  }
+  submitSearch(val:string){
+    this.route.navigate([`search/${val}`])
   }
 
 }
