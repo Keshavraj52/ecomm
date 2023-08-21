@@ -29,6 +29,17 @@
       "email": "kgp453@gmail.com",
       "password": "123456",
       "id": 5
+    },
+    {
+      "name": "lakshit borole",
+      "email": "lakshitborole6@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "email": "lakshitborole6@gmail.com",
+      "password": "123456",
+      "id": 7
     }
   ],
   "product": [
@@ -40,15 +51,6 @@
       "description": "deep bass with nice sound quality",
       "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
       "id": 5
-    },
-    {
-      "name": "vivo T2x 5G (Glimmer Black, 128 GB) ",
-      "price": "13999",
-      "color": "black",
-      "category": "mobile",
-      "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/h/e/-original-imagzjhwmsamexfk.jpeg?q=70",
-      "id": 6
     },
     {
       "name": "MOTOROLA G62 5G (Frosted Blue, 128 GB) ",
@@ -94,6 +96,15 @@
       "description": "Playback- Rockerz 510 promises a battery back up of upto 20 hours and a standyby time of 250 hours\nDrivers- Its 50mm drivers promises to deliver a thumping sound which you could never have imagined\nEarcups- The softness of the faux leather on the ear pads makes boAt Rockerz 510 pleasurable to wear.The foam inside the ear pads adapts to your ears with just the right pressure ensuring great comfort and also delivering authentic sound",
       "image": "https://vlebazaar.in/image/cache/catalog/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-th/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-the-Ear-550x550h.jpg",
       "id": 11
+    },
+    {
+      "name": "Maylaviu Seed Starter kit,5 Pack Seed.",
+      "price": "749",
+      "color": "-",
+      "category": "seed starter kit",
+      "description": "Maylaviu Seed Starter kit,5 Pack Seed Starter Tray Germination Tray with Adjustable Humidity Dome Mini Greenhouse Plant Starter Kit for Gardens (12cell)",
+      "image": "https://m.media-amazon.com/images/I/71H6mh6KDNL._AC_SX569_.jpg",
+      "id": 12
     }
   ]
 }

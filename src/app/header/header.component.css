@@ -53,11 +53,31 @@
     border: 1px solid rgb(171, 226, 43);
     height: 39px;
     border-right: 0px;
+    padding-left: 70px;
 }
 
 .nav .search button {
-    color: rgb(162, 226, 43);
+    color: rgb(213, 235, 23);
     border: 1px solid rgb(156, 226, 43);
     height: 39px;
     border-left: 0px;
+}
+.suggested-result{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #dddddda9;
+    width: 450px;
+    margin-left: 0px;
+    top: 52px;
+    border: 1px solid #c7d328;
+}
+.suggested-result li{
+    border: 1px solid #ffffff;
+    padding: 7px;
+}
+.suggested-result li a{
+    cursor: pointer;
+    color: rgb(133, 245, 5);
+
 }
