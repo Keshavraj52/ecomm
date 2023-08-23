@@ -1,11 +1,11 @@
 <nav class="nav">
-    <h1><a routerLink="/">E-farmmer</a></h1>
+    <a routerLink="/"><img class="farmmer" src="https://i.ibb.co/KKk01zb/farmm-png.jpg" alt=""></a>
     <div *ngIf="menuType==='default'" class="search">
         <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for product" />
         <button (click)="submitSearch(searchInput.value)">search</button>
         <ul class="suggested-result" *ngIf="searchResult">
             <li *ngFor="let item of searchResult">
-                <a><h5>{{item.name}}</h5></a>
+                <a (mousedown)="redireccttodetails(item.id)" ><h5>{{item.name}}</h5></a>
             </li>
         </ul>
     </div>
