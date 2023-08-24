@@ -97,5 +97,13 @@
       "image": "https://www.bigbasket.com/media/uploads/p/l/10000148_30-fresho-onion.jpg",
       "id": 13
     }
+  ],
+  "users": [
+    {
+      "name": "Keshav ",
+      "email": "keshav@453.com",
+      "password": "123456",
+      "id": 1
+    }
   ]
 }
