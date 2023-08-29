@@ -40,13 +40,25 @@
       "email": "lakshitborole6@gmail.com",
       "password": "123456",
       "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "prasad pore",
+      "email": "gjnv56@gmail.com",
+      "password": "51511",
+      "id": 9
     }
   ],
   "product": [
     {
       "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
       "price": "999",
-      "color": "black",
+      "color": "black/blue",
       "category": "headphones",
       "description": "deep bass with nice sound quality",
       "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
@@ -104,6 +116,12 @@
       "email": "keshav@453.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "Keshav ",
+      "email": "gjnv56@gmail.com",
+      "password": "123456",
+      "id": 2
     }
   ]
 }

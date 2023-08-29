@@ -20,13 +20,13 @@ body{margin: 0;
     height: 35px;
     margin-bottom: 20px;
     padding-left: 10px;
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid rgb(203, 206, 20);
+    color: rgb(26, 238, 18);
 
 }
 .form-button{
    height: 35px;
-   border: 1px solid blueviolet;
+   border: 1px solid rgb(7, 221, 18);
    cursor: pointer;
 
 }
@@ -45,4 +45,7 @@ body{margin: 0;
     background-color: rgb(71, 178, 221);
     border-radius: 5px;
 
+}
+.signup a{
+    cursor: pointer;
 }

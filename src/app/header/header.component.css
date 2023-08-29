@@ -30,6 +30,7 @@
 .nav li a {
     text-decoration: none;
     color: rgb(214, 226, 43);
+    cursor: pointer;
 }
 
 .nav .search {
