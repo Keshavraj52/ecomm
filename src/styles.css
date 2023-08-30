@@ -18,7 +18,8 @@ body{margin: 0;
 }
 .form-input{
     height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 15px;
     padding-left: 10px;
     border: 1px solid rgb(203, 206, 20);
     color: rgb(26, 238, 18);
@@ -26,9 +27,11 @@ body{margin: 0;
 }
 .form-button{
    height: 35px;
-   border: 1px solid rgb(7, 221, 18);
+   border: 1px solid rgb(68, 221, 7);
+   background-color: rgba(144, 238, 144, 0.829);
+   color: black;
    cursor: pointer;
-
+   margin-top: 15px;
 }
 .error-p{
     color: red;
@@ -48,4 +51,18 @@ body{margin: 0;
 }
 .signup a{
     cursor: pointer;
+}
+.invalid-input{
+    margin-top: 0;
+    color: rgba(255, 0, 0, 0.815);
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+button:disabled{
+    border: 1px solid rgb(222, 36, 228);
+    cursor: not-allowed;
+    background-color: rgba(137, 43, 226, 0.411);
+    color: black;
+    
 }

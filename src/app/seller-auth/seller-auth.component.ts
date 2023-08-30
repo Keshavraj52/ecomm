@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
-import { signUp } from '../data-type';
+import { login, signUp } from '../data-type';
 
 @Component({
   selector: 'app-seller-auth',
@@ -12,21 +12,18 @@ export class SellerAuthComponent implements OnInit {
   constructor(private seller:SellerService, private router:Router){}
   showLogin=false;
   authError:string='';
-  
-  ngOnInit(): void {
+  ngOnInit(): void { 
    this.seller.reloadseller()
   }
   signUp(data:signUp): void {
     console.warn(data);
    this.seller.userSignUp(data)
   }
-  login(data:signUp): void {
-    //console.warn(data);
+  login(data:login): void {
     this.authError="";
-
-    this.seller.userSignUp(data);
-    this.seller.isloginError.subscribe((isError)=>{
-      if (isError){
+    this.seller.userLogin(data);
+    this.seller.isloginError.subscribe((result)=>{
+      if (result){
         this.authError="Email or Password is not correct"
       }
 

@@ -7,51 +7,16 @@
       "id": 1
     },
     {
-      "name": "keshav",
-      "email": "abc23@gmail.com",
-      "password": "123456",
-      "id": 2
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 3
-    },
-    {
       "name": "prasad pore",
-      "email": "gjnv56@gmail.com",
-      "password": "123456",
-      "id": 4
+      "email": "Poreg79@gmail.com ",
+      "password": "123kgp12",
+      "id": 10
     },
     {
       "name": "Keshavraj ganesh pore ",
-      "email": "kgp453@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "name": "lakshit borole",
-      "email": "lakshitborole6@gmail.com",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "email": "lakshitborole6@gmail.com",
-      "password": "123456",
-      "id": 7
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 8
-    },
-    {
-      "name": "prasad pore",
-      "email": "gjnv56@gmail.com",
-      "password": "51511",
-      "id": 9
+      "email": "keshavrajpore52@gmail.com",
+      "password": "keshavraj1234",
+      "id": 11
     }
   ],
   "product": [
@@ -122,6 +87,18 @@
       "email": "gjnv56@gmail.com",
       "password": "123456",
       "id": 2
+    },
+    {
+      "name": "prasad pore",
+      "email": "kgp453@gmail.com",
+      "password": "keshavraj123",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
     }
   ]
 }

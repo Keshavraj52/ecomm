@@ -15,12 +15,12 @@
         <h1>seller login</h1>
         <p class="error-p">{{authError}}</p>
         <form #sellerlogin="ngForm" (ngSubmit)="login(sellerlogin.value)" class="common-form">
-            <input class="form-input" ngModel name="email" type="text" placeholder="enter email">
-            <input class="form-input" ngModel name="password" type="password" placeholder="enter password">
-            <button class="form-button">login</button>
+            <input #email="ngModel" required minlength="8" class="form-input" ngModel name="email" type="text" placeholder="enter email">
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">please enter valid email*</span></p>
+            <input #password="ngModel" required minlength="8" maxlength="20" class="form-input" ngModel name="password" type="password" placeholder="enter password">
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">please enter valid password*</span></p>
+            <button [disabled]="sellerlogin.invalid" class="form-button">login</button>
             <a (click)="openSignup()">don't Have Account? click to signup</a>
-
         </form>
-
     </div>
 </div>

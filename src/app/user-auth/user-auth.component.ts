@@ -9,8 +9,8 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./user-auth.component.css']
 })
 export class UserAuthComponent implements OnInit {
-  showLogin: boolean = true
-
+  showLogin=false
+  authError:string="";
   constructor(private user: UserService) { }
   signUp(data: signUp) {
     this.user.userSignUp(data)
@@ -20,6 +20,11 @@ export class UserAuthComponent implements OnInit {
   }
   login(data: login) {
     this.user.userLogin(data)
+    this.user.invalidUserAuth.subscribe((result)=>{
+      if(result){
+        this.authError="please enter valid email or password";
+      }
+    })
   }
   openLogin() {
     this.showLogin = true

@@ -9,7 +9,7 @@ import { product } from '../data-type';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  cartItems=0;
   menuType: string = 'default';
   sellerName: string = '';
   searchResult: undefined | product[];
@@ -35,6 +35,14 @@ export class HeaderComponent {
         }
       }
 
+    });
+
+    let cartData = localStorage.getItem('localCart');
+    if(cartData){
+      this.cartItems=JSON.parse(cartData).length
+    }
+    this.product.cartData.subscribe((items)=>{
+      this.cartItems=items.length
     });
   }
   logout() {

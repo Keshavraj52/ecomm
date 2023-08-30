@@ -7,7 +7,8 @@
             <div><h5 [style.backgroundColor]="productdata.color" class="product-color"></h5></div>
             <h6>category:{{productdata.category}}</h6>
             <h6>{{productdata.description}}</h6>
-            <button class="form-button">add to cart</button>
+            <button *ngIf="!removeCart" class="form-button" (click)="AddToCart()">add to cart</button>
+            <button *ngIf="removeCart" class="form-button" (click)="removeToCart(productdata.id)">remove from cart</button>
             <button class="form-button">buy now</button>
             <div class="quantity-group" >
                 <button (click)="handleQuantity('min')">-</button>
