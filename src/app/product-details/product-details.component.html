@@ -10,7 +10,7 @@
             <button *ngIf="!removeCart" class="form-button" (click)="AddToCart()">add to cart</button>
             <button *ngIf="removeCart" class="form-button" (click)="removeToCart(productdata.id)">remove from cart</button>
             <button class="form-button">buy now</button>
-            <div class="quantity-group" >
+            <div class="quantity-group">
                 <button (click)="handleQuantity('min')">-</button>
                 <input type="text" value="{{productQuantity}}">
                 <button (click)="handleQuantity('plus')">+</button>

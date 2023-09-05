@@ -73,6 +73,15 @@
       "description": "Onion is a vegetable which is almost like a staple in Indian food. This is also known to be one of the essential ingredients of raw salads. They come in different colours like white, red or yellow and are quite in demand in cold salads and hot soups.",
       "image": "https://www.bigbasket.com/media/uploads/p/l/10000148_30-fresho-onion.jpg",
       "id": 13
+    },
+    {
+      "name": "FABULO Mango Wood Walnut Finish Handmade Carving Classic Side Table for Living Room (Brown)",
+      "price": "1749",
+      "color": "brown",
+      "category": "wooden craft",
+      "description": "BEDSIDE CORNER TABLE- This Exclusively Designed wooden end table is specially designed for clients who looks for beautiful wooden small furniture for their home . it is a bed side table and can also be used as wooden end table , coffee table and decorative small furniture .",
+      "image": "https://m.media-amazon.com/images/I/61BK8Co1rXL._SX466_.jpg",
+      "id": 14
     }
   ],
   "users": [
@@ -99,6 +108,54 @@
       "email": "",
       "password": "",
       "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
+      "price": "999",
+      "color": "black/blue",
+      "category": "headphones",
+      "description": "deep bass with nice sound quality",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
+      "quantity": 3,
+      "userId": 3,
+      "productId": 5,
+      "id": 1
+    },
+    {
+      "name": "Keyboard and Mouse Gaming LED Wired Combo",
+      "price": "1666",
+      "color": "RGB led",
+      "category": "keyboard and mouse",
+      "description": "GAMING KEYBOARD AND MOUSE ---- 104 keys, 19 keys non-conflict, multiple keys to work simultaneously;6 button with rgb breathing backlight,imitate mechanical feeling keys and sense of rhythm; emitting character display clearly in dark room.",
+      "image": "https://m.media-amazon.com/images/I/718xqJg8i8L._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 8,
+      "id": 2
+    },
+    {
+      "name": "FABULO Mango Wood Walnut Finish Handmade Carving Classic Side Table for Living Room (Brown)",
+      "price": "1749",
+      "color": "brown",
+      "category": "wooden craft",
+      "description": "BEDSIDE CORNER TABLE- This Exclusively Designed wooden end table is specially designed for clients who looks for beautiful wooden small furniture for their home . it is a bed side table and can also be used as wooden end table , coffee table and decorative small furniture .",
+      "image": "https://m.media-amazon.com/images/I/61BK8Co1rXL._SX466_.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 14,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "email": "Poreg79@gmail.com ",
+      "address": "At post mhaswad",
+      "mobileno": "7378564044",
+      "totalPrice": 6512,
+      "userId": 3,
+      "id": 1
     }
   ]
 }

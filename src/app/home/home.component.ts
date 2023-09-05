@@ -13,11 +13,9 @@ export class HomeComponent implements OnInit {
   constructor(private product: ProductService) { }
   ngOnInit(): void {
     this.product.popularProducts().subscribe((data) => {
-      console.warn(data);
       this.popularproducts = data;
     })
     this.product.trendyProducts().subscribe((data) => {
-      console.warn(data);
       this.trendyProducts = data;
     })
   }

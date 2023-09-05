@@ -15,13 +15,13 @@
             <li><a routerLink="/">home</a></li>
             <li><a routerLink="/seller-auth">seller</a></li>
             <li><a routerLink="/user-auth">signUp/login</a></li>
-            <li><a>cart({{cartItems}})</a></li>
+            <li><a routerLink="/cart-page">cart({{cartItems}})</a></li>
         </ul>
         <ul *ngSwitchCase="'default'">
             <li><a routerLink="/">home</a></li>
             <li><a routerLink="/seller-auth">{{userName|titlecase}}</a></li>
             <li><a (click)="userLogout()">logout</a></li>
-            <li><a>cart({{cartItems}})</a></li>
+            <li><a routerLink="/cart-page">cart({{cartItems}})</a></li>
         </ul>
         <ul *ngSwitchCase="'seller'">
             <li><a routerLink="seller-add-product">add product</a></li>
