@@ -11,13 +11,12 @@
 </ngb-carousel>
 <div class="product-list-wrapper">
 	<h1>Trendy Product <span class="new">New</span></h1>
-	<div class="row">
+	<div class="row treandy">
 		<div class="col-sm-3" *ngFor="let item of trendyProducts">
 			<div class="product-item">
 				<a routerLink="/details/{{item.id}}"> <img src="{{item.image}}" alt=""></a>
-
 				<div class="product-details">
-					 <h6 class="product-head">{{item.name}}</h6>
+				 	 <h6 class="product-head">{{item.name}}</h6>
 					<div class="product-price">
 						<h6>{{item.price}}</h6>
 					</div>
@@ -26,7 +25,7 @@
 					</div>
 					<div class="product-footer">
 						<a routerLink="/details/{{item.id}}">view Details</a>
-						<a href="">Add to cart</a>
+						<a>Add to cart</a>
 					</div>
 				</div>
 			</div>

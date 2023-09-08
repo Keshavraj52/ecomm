@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product.service';
-import { product } from '../data-type';
+import { cart, product } from '../data-type';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ import { product } from '../data-type';
 export class HomeComponent implements OnInit {
   popularproducts: undefined | product[]
   trendyProducts: undefined | product[]
+ 
   constructor(private product: ProductService) { }
   ngOnInit(): void {
     this.product.popularProducts().subscribe((data) => {
@@ -19,4 +21,5 @@ export class HomeComponent implements OnInit {
       this.trendyProducts = data;
     })
   }
+ 
 }

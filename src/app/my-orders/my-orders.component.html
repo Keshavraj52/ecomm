@@ -21,23 +21,23 @@
 
         </div>
        
-    <div class="row order-data">
+    <div class="row order-data" *ngFor="let order of orderData">
         <div class="col-sm-2">
           <img class="order-img" src="https://i.ibb.co/NygmzyQ/checkout.png" alt="">
         </div>
         <div class="col-sm-2">
-            <span> Order Id</span>
+            <span> {{order.id}}</span>
 
         </div>
         <div class="col-sm-2">
-            <span>1200</span>
+            <span>{{order.totalPrice}}</span>
       </div>
         <div class="col-sm-2">
-            <span>Status</span>
+            <span>order in progress</span>
 
         </div>
         <div class="col-sm-2">
-            <span><button class="form-button">cancel order</button></span>
+            <span><button (click)="cancelOrder(order.id)" class="form-button">cancel order</button></span>
 
         </div>
     </div>

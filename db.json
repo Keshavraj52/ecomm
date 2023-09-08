@@ -57,15 +57,6 @@
       "id": 11
     },
     {
-      "name": "Maylaviu Seed Starter kit,5 Pack Seed.",
-      "price": "749",
-      "color": "-",
-      "category": "seed starter kit",
-      "description": "Maylaviu Seed Starter kit,5 Pack Seed Starter Tray Germination Tray with Adjustable Humidity Dome Mini Greenhouse Plant Starter Kit for Gardens (12cell)",
-      "image": "https://m.media-amazon.com/images/I/71H6mh6KDNL._AC_SX569_.jpg",
-      "id": 12
-    },
-    {
       "name": "fresh onion per kg",
       "price": "43per kg",
       "color": "-",
@@ -82,13 +73,22 @@
       "description": "BEDSIDE CORNER TABLE- This Exclusively Designed wooden end table is specially designed for clients who looks for beautiful wooden small furniture for their home . it is a bed side table and can also be used as wooden end table , coffee table and decorative small furniture .",
       "image": "https://m.media-amazon.com/images/I/61BK8Co1rXL._SX466_.jpg",
       "id": 14
+    },
+    {
+      "name": "Gyawun Alphabet Kashmiri Maroon Hand Embroidered Namda",
+      "price": "1599",
+      "color": "pink",
+      "category": "marron hand",
+      "description": "Gyawun Alphabet Kashmiri Maroon Hand Embroidered Namda",
+      "image": "https://m.media-amazon.com/images/I/61+kAdWT7AL._SY300_SX300_.jpg",
+      "id": 15
     }
   ],
   "users": [
     {
       "name": "Keshav ",
       "email": "keshav@453.com",
-      "password": "123456",
+      "password": "12345678",
       "id": 1
     },
     {
@@ -102,92 +102,21 @@
       "email": "kgp453@gmail.com",
       "password": "keshavraj123",
       "id": 3
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 4
     }
   ],
   "cart": [
     {
-      "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
+      "name": "SAAHO TOMATO SEEDS [TO-3251]",
       "price": "999",
-      "color": "black/blue",
-      "category": "headphones",
-      "description": "deep bass with nice sound quality",
-      "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
-      "quantity": 3,
-      "userId": 3,
-      "productId": 5,
+      "color": "-",
+      "category": "seeds",
+      "description": "good tomato seeds for farming",
+      "image": "https://www.bighaat.com/cdn/shop/products/Sahoo_1800x1800.jpg?v=1671198625",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 10,
       "id": 1
-    },
-    {
-      "name": "Keyboard and Mouse Gaming LED Wired Combo",
-      "price": "1666",
-      "color": "RGB led",
-      "category": "keyboard and mouse",
-      "description": "GAMING KEYBOARD AND MOUSE ---- 104 keys, 19 keys non-conflict, multiple keys to work simultaneously;6 button with rgb breathing backlight,imitate mechanical feeling keys and sense of rhythm; emitting character display clearly in dark room.",
-      "image": "https://m.media-amazon.com/images/I/718xqJg8i8L._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 8,
-      "id": 2
-    },
-    {
-      "name": "FABULO Mango Wood Walnut Finish Handmade Carving Classic Side Table for Living Room (Brown)",
-      "price": "1749",
-      "color": "brown",
-      "category": "wooden craft",
-      "description": "BEDSIDE CORNER TABLE- This Exclusively Designed wooden end table is specially designed for clients who looks for beautiful wooden small furniture for their home . it is a bed side table and can also be used as wooden end table , coffee table and decorative small furniture .",
-      "image": "https://m.media-amazon.com/images/I/61BK8Co1rXL._SX466_.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 14,
-      "id": 3
-    },
-    {
-      "name": "BoAt Rockerz 510 Super Extra Bass ",
-      "price": "899",
-      "color": "blue",
-      "category": "headphones",
-      "description": "Playback- Rockerz 510 promises a battery back up of upto 20 hours and a standyby time of 250 hours\nDrivers- Its 50mm drivers promises to deliver a thumping sound which you could never have imagined\nEarcups- The softness of the faux leather on the ear pads makes boAt Rockerz 510 pleasurable to wear.The foam inside the ear pads adapts to your ears with just the right pressure ensuring great comfort and also delivering authentic sound",
-      "image": "https://vlebazaar.in/image/cache/catalog/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-th/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-the-Ear-550x550h.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 11,
-      "id": 4
-    },
-    {
-      "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
-      "price": "999",
-      "color": "black/blue",
-      "category": "headphones",
-      "description": "deep bass with nice sound quality",
-      "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 5,
-      "id": 5
     }
   ],
-  "orders": [
-    {
-      "email": "Poreg79@gmail.com ",
-      "address": "At post mhaswad",
-      "mobileno": "7378564044",
-      "totalPrice": 6512,
-      "userId": 3,
-      "id": 1
-    },
-    {
-      "email": "gjnv56@gmail.com",
-      "address": "At post mhaswad",
-      "mobileno": "7378564044",
-      "totalPrice": 7411,
-      "userId": 3,
-      "id": 2
-    }
-  ]
+  "orders": []
 }

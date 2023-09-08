@@ -31,7 +31,7 @@ export class HeaderComponent {
           this.product.getCartList(userData.id)
         }
          else {
-          console.warn("outside seller")
+          
           this.menuType = "default"
         }
       }
