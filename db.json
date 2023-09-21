@@ -104,19 +104,16 @@
       "id": 3
     }
   ],
-  "cart": [
+  "cart": [],
+  "orders": [
     {
-      "name": "SAAHO TOMATO SEEDS [TO-3251]",
-      "price": "999",
-      "color": "-",
-      "category": "seeds",
-      "description": "good tomato seeds for farming",
-      "image": "https://www.bighaat.com/cdn/shop/products/Sahoo_1800x1800.jpg?v=1671198625",
-      "quantity": 1,
+      "email": "Poreg79@gmail.com ",
+      "address": "At post mhaswad",
+      "mobileno": "7378564044",
+      "photo": "C:\\fakepath\\IMG_20230914_214105.jpg",
+      "totalPrice": 1099,
       "userId": 1,
-      "productId": 10,
       "id": 1
     }
-  ],
-  "orders": []
+  ]
 }

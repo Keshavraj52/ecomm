@@ -5,7 +5,6 @@ import { ProductDetailsComponent } from './product-details.component';
 describe('ProductDetailsComponent', () => {
   let component: ProductDetailsComponent;
   let fixture: ComponentFixture<ProductDetailsComponent>;
-
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ProductDetailsComponent]
@@ -14,7 +13,6 @@ describe('ProductDetailsComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

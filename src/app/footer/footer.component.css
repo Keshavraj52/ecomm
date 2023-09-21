@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer Styles */
+  .ecommerce-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    display: block;
+  }
+  
+  .ecommerce-footer h4 {
+    color: #ffcc00;
+  }
+  
+  .ecommerce-footer p {
+    font-size: 14px;
+  }
+  
+  .ecommerce-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .ecommerce-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .ecommerce-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ecommerce-footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    color: #ffcc00;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .ecommerce-footer {
+      text-align: center;
+    }
+}
+  

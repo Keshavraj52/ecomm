@@ -50,7 +50,7 @@ export class CheckoutComponent implements OnInit{
               this.ordermsg=undefined
             },4000)
           }
-        })
+        }) 
        }
       
   }
