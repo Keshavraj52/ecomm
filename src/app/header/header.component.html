@@ -1,6 +1,6 @@
 <nav class="nav">
     <a routerLink="/"><img class="farmmer" src="https://i.ibb.co/KKk01zb/farmm-png.jpg" alt=""></a>
-    <div *ngIf="menuType==='default'" class="search">
+    <div *ngIf="menuType!=='seller'" class="search">
         <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for product" />
         <button (click)="submitSearch(searchInput.value)">search</button>
         <ul class="suggested-result" *ngIf="searchResult">
@@ -16,6 +16,7 @@
             <li><a routerLink="/seller-auth">seller</a></li>
             <li><a routerLink="/user-auth">signUp/login</a></li>
             <li><a routerLink="/cart-page">cart({{cartItems}})</a></li>
+
         </ul>
         <ul *ngSwitchCase="'default'">
             <li><a routerLink="/">home</a></li>

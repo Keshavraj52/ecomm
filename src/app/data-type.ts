@@ -49,3 +49,6 @@ export interface order{
     id:number|undefined,
 
 }
+export interface file{
+    target:string
+}

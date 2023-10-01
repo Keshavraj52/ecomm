@@ -24,6 +24,8 @@
 .product-list-wrapper{
     margin-top: 80px;
     margin-bottom: 80px;
+    display: block;
+    width: 100vw;
 }
 .product-list-wrapper .new{
 color: aliceblue;
@@ -58,6 +60,6 @@ margin: 0;
     cursor: pointer;
 }
 .treandy{
-
+     
     height: 500px;
 }

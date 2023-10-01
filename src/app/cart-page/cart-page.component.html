@@ -16,7 +16,7 @@
                     <span> price:{{cart.price}}</span>
                  </li>
                 <li>
-                    <button class="form-button">remove to cart</button>
+                    <button (click)="RemoveToCart(cart.id)" class="form-button">remove to cart</button>
                 </li>
             </ul>
         </div>

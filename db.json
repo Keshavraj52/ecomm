@@ -102,6 +102,12 @@
       "email": "kgp453@gmail.com",
       "password": "keshavraj123",
       "id": 3
+    },
+    {
+      "name": "prasad pore",
+      "email": "kgp453@gmail.com",
+      "password": "keshavaraj",
+      "id": 4
     }
   ],
   "cart": [],
@@ -114,6 +120,15 @@
       "totalPrice": 1099,
       "userId": 1,
       "id": 1
+    },
+    {
+      "email": "gjnv56@gmail.com",
+      "address": "At post mhaswad",
+      "mobileno": "7378564044",
+      "photo": "C:\\fakepath\\WhatsApp Image 2023-09-29 at 19.36.46.jpg",
+      "totalPrice": 100,
+      "userId": 1,
+      "id": 2
     }
   ]
 }
