@@ -10,6 +10,10 @@
     border-radius: 50%;
 
 }
+.rate{
+color: gold;
+font-size: 52px;
+}
 .product-details{
     margin-top: 110px;
 }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { cart, product } from '../data-type';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-product-details',
@@ -88,5 +89,14 @@ export class ProductDetailsComponent implements OnInit{
                  })
     }
     this.removeCart=false;
+  }
+  rateingcount=0
+  totalrating=0
+  Finalrating:any;
+  ratingcontrol= new FormControl(0);
+  getrateing(){
+this.rateingcount++;
+this.totalrating +=this.ratingcontrol?.value || 0 
+ this.Finalrating=(this.totalrating/this.rateingcount).toFixed(2) 
   }
 }

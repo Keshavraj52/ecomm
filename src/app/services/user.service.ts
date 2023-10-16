@@ -1,5 +1,5 @@
 import { EventEmitter, Injectable } from '@angular/core';
-import { login, signUp } from '../data-type';
+import { login, signUp, users } from '../data-type';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 
@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class UserService {
+  profile=new EventEmitter<users[]|[]>()
   invalidUserAuth=new EventEmitter<boolean>(false)
   constructor(private http:HttpClient,private router:Router) { }
   userSignUp(user:signUp){
@@ -38,4 +39,8 @@ export class UserService {
       this.router.navigate(['/'])
     }
   }
+  getuser(id:string){
+    return this.http.get<users>('http://localhost:3000/users')
+  }
 }
+

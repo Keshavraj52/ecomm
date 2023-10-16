@@ -13,6 +13,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ImageDetaComponent } from './image-deta/image-deta.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {
@@ -66,6 +67,10 @@ const routes: Routes = [
   {
     component:ImageDetaComponent,
     path:'image-deta'
+  },
+  {
+    component:ProfileComponent,
+    path:'profile/:userId'
   }
 
 ];

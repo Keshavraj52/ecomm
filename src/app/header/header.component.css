@@ -1,11 +1,12 @@
 .nav {
     margin: 0;
-    padding-top: 1%;
+    padding-top: 0%;
     display: flex;
     justify-content: space-between;
     color: rgb(158, 11, 243);
     width: 99vw;
-    height: 10vh;
+    height: 15vh;
+
 
 }
 
@@ -24,7 +25,7 @@
 
 .nav li {
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .nav li a {
@@ -35,7 +36,7 @@
 
 .nav .search {
     margin-right: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 0px;
     flex: 1;
     display: flex;
@@ -43,10 +44,20 @@
 }
 .farmmer{
     width: 255px;
-    height: 80px;
+    height: 15vh;
     margin:0;
+    margin-top: 0;
+    margin-right: 30px;
 }
-
+.farmer{
+    width: 85px;
+    height: 10vh;
+    margin:0;
+    margin-left: 85px;
+    margin-right: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .nav .search input {
     flex: 1;
     color: rgb(192, 226, 43);
@@ -81,3 +92,38 @@
     color: rgb(133, 245, 5);
 
 }
+
+
+
+
+.like-button {
+    display: inline-block;
+    padding:  20px;
+    font-size: 16px;
+    width: 225px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #47db34;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+/* Change background color on hover */
+.like-button:hover {
+    background-color: #4ae63c;
+}
+.ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+.ul li{
+    padding: 25px;
+
+}
+
+
+
+

@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
-import { product } from '../data-type';
+import { product, users } from '../data-type';
+import { NgbOffcanvas, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-header',
@@ -14,7 +16,8 @@ export class HeaderComponent {
   sellerName: string = '';
   searchResult: undefined | product[];
   userName:string="";
-  constructor(private route: Router, private product: ProductService) { }
+  usersdata:undefined|users
+  constructor(private route: Router,private activeRoute:ActivatedRoute, private product: ProductService,private offcanvasService: NgbOffcanvas,private user:UserService) { }
   ngOInit(): void {
     this.route.events.subscribe((val: any) => {
       if (val.url) {
@@ -44,7 +47,16 @@ export class HeaderComponent {
     }
     this.product.cartData.subscribe((items)=>{
       this.cartItems=items.length
-    });
+    });    
+
+
+
+    let userId =this.activeRoute.snapshot.paramMap.get('userId')
+    userId && this.user.getuser(userId).subscribe((result)=>{
+     this.usersdata=result
+    } )     
+
+
   }
   logout() {
     localStorage.removeItem('seller');
@@ -76,5 +88,30 @@ export class HeaderComponent {
   redireccttodetails(id: number) {
     this.route.navigate(['/details/' + id])
   }
+  closeResult = '';
 
-}
+
+	open(content: any) {
+		this.offcanvasService.open(content, { ariaLabelledBy: 'offcanvas-basic-title' }).result.then(
+			(result) => {
+				this.closeResult = `Closed with: ${result}`;
+			},
+			(reason) => {
+				this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+			},
+		);
+	}
+
+	private getDismissReason(reason: any): string {
+		if (reason === OffcanvasDismissReasons.ESC) {
+			return 'by pressing ESC';
+		} else if (reason === OffcanvasDismissReasons.BACKDROP_CLICK) {
+			return 'by clicking on the backdrop';
+		} else {
+			return `with: ${reason}`;
+		}
+	}
+
+ 
+
+  }

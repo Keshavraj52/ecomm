@@ -1,5 +1,5 @@
 <nav class="nav">
-    <a routerLink="/"><img class="farmmer" src="https://i.ibb.co/KKk01zb/farmm-png.jpg" alt=""></a>
+    <a routerLink="/"><img class="farmmer" src="https://i.ibb.co/VQP5dfn/Khet-Se-Ghar.png" alt=""></a>
     <div *ngIf="menuType!=='seller'" class="search">
         <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for product" />
         <button (click)="submitSearch(searchInput.value)">search</button>
@@ -11,21 +11,38 @@
     </div>
 
     <div [ngSwitch]="menuType">
-        <ul *ngSwitchCase="'default'">
-            <li><a routerLink="/">home</a></li>
-            <li><a routerLink="/seller-auth">seller</a></li>
-            <li><a routerLink="/user-auth">signUp/login</a></li>
-            <li><a routerLink="/cart-page">cart({{cartItems}})</a></li>
-
-        </ul>
-        <ul *ngSwitchCase="'default'">
+       
+        
+        <img class="farmer" (click)="open(content)"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEWH/0r///8AAACK/0xPlStYpjBUni6B/z+8/6LJ/rJ/8EaF/0aA/zx//zmD/0Lm/9z2//L6//fS/7/p/+D9//uC9khLjSnX/8TQ/7uc/26M/1Kf/3Lh/9Tv/+mX/2Xc/8zD/6il/362/5aT/12r/4TH/67B/6ew/468/6Gu/4qQ/1jf/9Hy/+zM/raZ/2ei/3dzYljcAAAFLUlEQVR4nO2d23LqOgxAnUNPXbZsJyF0h3uAcCst5f//bhtSSoAECC0k0mi9t/UayXLsmUrCoY4oewF3hw3xw4b4YUP8sCF+2BA/bIgfNsQPG+KHDfHDhvi53bDpe57r9sKwVb8frTDsua7n+c2HGnpBOJyPBjW9QSl5T5Ta/pXaYDSfNVzvAYZBOG53rJUxAOJxAICxtp3PcSO4o6EfvgmpHqt2LGqUhEnDv4dhMO1qa1eaXAqjdHt4dSivM/RaXS0rYfcFSN1eXbcrrzF034Sqkl4C2HTt/YphGGtTtk0ORncaPzZsDHT1wrcH9LJ14ag8b7iKK5ieh4Ba1m82dAeV99sAKj63H/MNvXml8zMN6MlHccOWqGp9ycJAbqrmGPojFAm6B1Q353jMNuwBpgAmGBVdb7hAswMP0OOsgyPD0O+qstd6I3KQkamnht4SX4buMLX+ZUO3xMvRzwH5fskwrMYF6WZAts4bRjhrTBrdOmfYw1pj0ugw39BFnqJfHO7FtGEgSAgKADfbsElE0CoaP9NwjfccPMa0swyHFKrMDrU4NezJslf1q8jo2LBZo7IJEwC8I8MxrRDarTg5NAx02Sv6dXTvwLBNK0c3wCBt2KJUR3eo+t7Q79ALoQ1izf82bFAM4S6IW8OYYghtEDs7w4heIU3Y3qMEzUKaAHFi2Kd22O+RwdZwSthwtjUkm6TJqS+cPl3BbZoKZ0XzMEyQQ2s4onO1PwXWjmiS/GLb0xQfVI/7BB2I9xu2Ya0sii9VhWJV/DR8/ftUDn9fC69VTsWieKH5819Z/Cm8VvMmJsULDSZDWIsbvmhQGcbihrshJkPREcviP4TKcONI3fAG2JAN2ZAN2ZANL/P6/H85PBe/W9wIovshwzAMwzAMwzAMwzAMaci/07w+PZfD06Pe2ui/l7IhG7IhG7IhG7IhG7IhG1bBkP7dgv79kGEYhmEYhmEYhmEYBgnk32no/88M/fdSNmRDNmRDNjyCfk8F+ob0e5t8EjeMyfcY6oox7T5RMBF12r2+zExEtPu1yYbok++5R62h/hGmKZwRZUNoO4Jyk127DV+sYUC5f6lyN32EB3TTdNPu2hrO6KapGW8NA7qGqpf0ZCfaVt8m6fKr6zzR0Qg2hKvdbASizZJBfE9/qNMM4qbn/G5GCZl5ZAckA5GSOTNTikGUi/SsIIKnPiybacMevTuUjg5ndpHrrm/WR1PJPBrjK/eojyNDJ6RVbNT3vNX9/ENSs+Xk3Dk1pFRPd3X0yNCTVBRBp4ZXp2fJvlNRVOmJwAfzgIlUm8OpzocznRsUDn5dd/INnTp+RT1zzhniv0gdC54Y2r2IudzA8WT1DEMnALyKYHonPqeGTj/G+nVjOsGpToah409w1hs98jJssgwdp6XxZSroaaZLtqHTH2DLVBlnZOgZQ6e5QFVTQY/9HJM8Q1tTu2hSFfSnm+uRb2iPxhqOT3EpTg7BKw1tqiJwlCI3QS8b2jvjUFR7P0qz+DivcMHQxnEKlXUEpRZn43eVoSVsmwomKxj5uWpeXv01hrauvsS6Us+NYHRnnF8/ixvaZI3GHV2RSILUtXl4MT0LGm4Ihp9SyVKvHgBGyXh2XfSKG1q8aDiKQUtjHi1q3Ywyy/VLdKF2/tBwSz8ajkeDmtZKKSmt7R2xv9/+Fa1rg/X8JQyuTc0fGib4XhCF4ao+Xbzcj8W0Xg/DyPX8K6rmbxtigQ3xw4b4YUP8sCF+2BA/bIgfNsQPG+KHDfHDhvihb/gPyoW0jOsnJz0AAAAASUVORK5CYII=" alt="">
+        
+        <ng-template  #content let-offcanvas>
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvas-basic-title"></h4>
+                <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <div class="text-end">
+                    <ul class="ul" *ngSwitchCase="'default'">
+                        <li><a class="like-button" routerLink="/">home</a></li>
+                        <li><a class="like-button" routerLink="/seller-auth">seller</a></li>
+                        <li><a class="like-button" routerLink="/user-auth">signUp/login</a></li>
+                        <li><a class="like-button" routerLink="/cart-page">cart({{cartItems}})</a></li>
+                        <li><a class="like-button" routerLink="myorders">my-orderlist</a></li>
+                        <li><a class="like-button" (click)="userLogout()">logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </ng-template>
+        
+        <!--ul *ngSwitchCase="'default'">
             <li><a routerLink="/">home</a></li>
             <li><a>{{userName|titlecase}}</a></li>
             <li><a routerLink="myorders">my-orderlist</a></li>
 
             <li><a (click)="userLogout()">logout</a></li>
             <li><a routerLink="/cart-page">cart({{cartItems}})</a></li>
-        </ul>
+        </ul-->
         <ul *ngSwitchCase="'seller'">
             <li><a routerLink="seller-add-product">add product</a></li>
             <li><a routerLink="/seller-home">product list</a></li>
@@ -34,3 +51,8 @@
         </ul>
     </div>
 </nav>
+
+
+
+
+

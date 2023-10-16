@@ -57,8 +57,8 @@
       "id": 11
     },
     {
-      "name": "fresh onion per kg",
-      "price": "43per kg",
+      "name": "fresh onion direct from farm to home",
+      "price": "43",
       "color": "-",
       "category": "vegitable",
       "description": "Onion is a vegetable which is almost like a staple in Indian food. This is also known to be one of the essential ingredients of raw salads. They come in different colours like white, red or yellow and are quite in demand in cold salads and hot soups.",
@@ -66,7 +66,7 @@
       "id": 13
     },
     {
-      "name": "FABULO Mango Wood Walnut Finish Handmade Carving Classic Side Table for Living Room (Brown)",
+      "name": "Handmade Carving Classic Side Table (Brown)",
       "price": "1749",
       "color": "brown",
       "category": "wooden craft",
@@ -75,7 +75,7 @@
       "id": 14
     },
     {
-      "name": "Gyawun Alphabet Kashmiri Maroon Hand Embroidered Namda",
+      "name": "Gyawun Alphabet Kashmiri Maroon Hand Embroidered ",
       "price": "1599",
       "color": "pink",
       "category": "marron hand",
@@ -89,25 +89,15 @@
       "name": "Keshav ",
       "email": "keshav@453.com",
       "password": "12345678",
+      "prourl": "https://i.ibb.co/x7xJTNJ/Screenshot-2023-09-12-18-27-18-17-6012fa4d4ddec268fc5c7112cbb265e7-1.jpg",
       "id": 1
     },
     {
       "name": "Keshav ",
       "email": "gjnv56@gmail.com",
       "password": "123456",
+      "prourl": "https://i.ibb.co/x7xJTNJ/Screenshot-2023-09-12-18-27-18-17-6012fa4d4ddec268fc5c7112cbb265e7-1.jpg",
       "id": 2
-    },
-    {
-      "name": "prasad pore",
-      "email": "kgp453@gmail.com",
-      "password": "keshavraj123",
-      "id": 3
-    },
-    {
-      "name": "prasad pore",
-      "email": "kgp453@gmail.com",
-      "password": "keshavaraj",
-      "id": 4
     }
   ],
   "cart": [],
@@ -120,15 +110,6 @@
       "totalPrice": 1099,
       "userId": 1,
       "id": 1
-    },
-    {
-      "email": "gjnv56@gmail.com",
-      "address": "At post mhaswad",
-      "mobileno": "7378564044",
-      "photo": "C:\\fakepath\\WhatsApp Image 2023-09-29 at 19.36.46.jpg",
-      "totalPrice": 100,
-      "userId": 1,
-      "id": 2
     }
   ]
 }

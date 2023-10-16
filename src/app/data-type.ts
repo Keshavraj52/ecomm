@@ -1,6 +1,7 @@
 export interface signUp{
     name:string,
     email:string,
+    prourl:string,
     password:string
 }
 export interface login{
@@ -51,4 +52,12 @@ export interface order{
 }
 export interface file{
     target:string
+}
+export interface users{
+    id: any
+    name:string,
+    email:string,
+    password:string,
+    prourl:string
+
 }
