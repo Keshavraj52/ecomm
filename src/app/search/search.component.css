@@ -1,6 +1,6 @@
 .search-item{
     margin: 25px auto;
-    width: 800px;
+    width: 100vw;
     border-top: 1px solid #ddd;
     padding: 10px;
 }
@@ -19,4 +19,16 @@
 }
 .search-item span{
     margin-right: 10px;
+}
+.kesh{
+    text-decoration: none;
+    color: rgb(174, 247, 6);
+
+}
+.kesh h6{
+    color: rgb(174, 247, 6);
+ 
+}
+.kesh h6:hover{
+    color: rgb(6, 247, 106);
 }

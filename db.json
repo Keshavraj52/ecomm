@@ -17,13 +17,19 @@
       "email": "keshavrajpore52@gmail.com",
       "password": "keshavraj1234",
       "id": 11
+    },
+    {
+      "name": "prasad pore",
+      "email": "kgp453@gmail.com",
+      "password": "12345678",
+      "id": 12
     }
   ],
   "product": [
     {
       "name": "Leaf Ear Bass Bluetooth Headset  (Black, On the Ear)",
       "price": "999",
-      "color": "black/blue",
+      "color": "black",
       "category": "headphones",
       "description": "deep bass with nice sound quality",
       "image": "https://rukminim2.flixcart.com/image/416/416/kfcv6vk0-0/headphone/k/5/1/bass-leaf-ear-original-imafvu6zrneghgzj.jpeg?q=70",
@@ -36,6 +42,7 @@
       "category": "keyboard and mouse",
       "description": "GAMING KEYBOARD AND MOUSE ---- 104 keys, 19 keys non-conflict, multiple keys to work simultaneously;6 button with rgb breathing backlight,imitate mechanical feeling keys and sense of rhythm; emitting character display clearly in dark room.",
       "image": "https://m.media-amazon.com/images/I/718xqJg8i8L._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
+      "discount": "60%",
       "id": 8
     },
     {
@@ -45,6 +52,7 @@
       "category": "seeds",
       "description": "good tomato seeds for farming",
       "image": "https://www.bighaat.com/cdn/shop/products/Sahoo_1800x1800.jpg?v=1671198625",
+      "discount": "24%",
       "id": 10
     },
     {
@@ -54,6 +62,7 @@
       "category": "headphones",
       "description": "Playback- Rockerz 510 promises a battery back up of upto 20 hours and a standyby time of 250 hours\nDrivers- Its 50mm drivers promises to deliver a thumping sound which you could never have imagined\nEarcups- The softness of the faux leather on the ear pads makes boAt Rockerz 510 pleasurable to wear.The foam inside the ear pads adapts to your ears with just the right pressure ensuring great comfort and also delivering authentic sound",
       "image": "https://vlebazaar.in/image/cache/catalog/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-th/-boAt-Rockerz-510-Super-Extra-Bass-Bluetooth-Headset-Furious-blue-On-the-Ear-550x550h.jpg",
+      "discount": "30%",
       "id": 11
     },
     {
@@ -63,6 +72,7 @@
       "category": "vegitable",
       "description": "Onion is a vegetable which is almost like a staple in Indian food. This is also known to be one of the essential ingredients of raw salads. They come in different colours like white, red or yellow and are quite in demand in cold salads and hot soups.",
       "image": "https://www.bigbasket.com/media/uploads/p/l/10000148_30-fresho-onion.jpg",
+      "discount": "15%",
       "id": 13
     },
     {
@@ -72,6 +82,7 @@
       "category": "wooden craft",
       "description": "BEDSIDE CORNER TABLE- This Exclusively Designed wooden end table is specially designed for clients who looks for beautiful wooden small furniture for their home . it is a bed side table and can also be used as wooden end table , coffee table and decorative small furniture .",
       "image": "https://m.media-amazon.com/images/I/61BK8Co1rXL._SX466_.jpg",
+      "discount": "20%",
       "id": 14
     },
     {
@@ -81,7 +92,38 @@
       "category": "marron hand",
       "description": "Gyawun Alphabet Kashmiri Maroon Hand Embroidered Namda",
       "image": "https://m.media-amazon.com/images/I/61+kAdWT7AL._SY300_SX300_.jpg",
+      "discount": "10%",
       "id": 15
+    },
+    {
+      "name": "Fresho Mini Orange Imported (Loose), 1 kg",
+      "price": "246",
+      "color": "orange",
+      "category": "fruits",
+      "description": "Lovely, bright, reddish, glossy and smooth skinned fruits, these little oranges are a sheer experience. The juiciness and sweetness of the mini oranges are distinctive.",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20003955_2-fresho-baby-orange.jpg?tr=w-640,q=80",
+      "discount": "45",
+      "id": 16
+    },
+    {
+      "name": "Fresho Papaya, 1 kg",
+      "price": "58",
+      "color": "yellowishgreen",
+      "category": "fruits",
+      "description": "Papayas grow in tropical climates and are also known as papaws or pawpaws.\nInitially green and slightly bitter in taste, papayas are butter-yellow when fully ripe and shaped like a pear.\nTheir pale-orange flesh has dozens of small, black, sticky seeds at the centre, like a melon.",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40296057_3-fresho-papaya.jpg?tr=w-640,q=80",
+      "discount": "27",
+      "id": 17
+    },
+    {
+      "name": "Fresho Banana - Yelakki, Organically Grown, 1 kg",
+      "price": "85",
+      "color": "yellow",
+      "category": "fruits",
+      "description": "Fresho Organic products are organically grown and handpicked by expert.\nProduct image shown is for representation purpose only, the actually product may vary based on season, produce & availability.",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/50000457_4-fresho-banana-yelakki-organically-grown.jpg?tr=w-640,q=80",
+      "discount": "40",
+      "id": 18
     }
   ],
   "users": [
@@ -98,9 +140,35 @@
       "password": "123456",
       "prourl": "https://i.ibb.co/x7xJTNJ/Screenshot-2023-09-12-18-27-18-17-6012fa4d4ddec268fc5c7112cbb265e7-1.jpg",
       "id": 2
+    },
+    {
+      "name": "https://www.bigbasket.com/media/uploads/p/l/10000148_30-fresho-onion.jpg",
+      "email": "Poreg79@gmail.com ",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "jgg",
+      "email": "kgp453@gmail.com",
+      "password": "12345678",
+      "id": 4
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "name": "SAAHO TOMATO SEEDS [TO-3251]",
+      "price": "999",
+      "color": "-",
+      "category": "seeds",
+      "description": "good tomato seeds for farming",
+      "image": "https://www.bighaat.com/cdn/shop/products/Sahoo_1800x1800.jpg?v=1671198625",
+      "discount": "24%",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 10,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "email": "Poreg79@gmail.com ",

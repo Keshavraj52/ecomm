@@ -18,7 +18,8 @@ export interface product{
     image:string,
     id:number,
     quantity:undefined|number,
-    productId:undefined|number
+    productId:undefined|number,
+    discount:number
 }
 export interface cart{
     name:string,

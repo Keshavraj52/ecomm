@@ -12,6 +12,7 @@ import { UserService } from '../services/user.service';
 export class HomeComponent implements OnInit {
   popularproducts: undefined | product[]
   trendyProducts: undefined | product[]
+  discounted:undefined|product[]
  
   constructor(private product: ProductService,private user:UserService) { }
   ngOnInit(): void {
@@ -21,7 +22,9 @@ export class HomeComponent implements OnInit {
     this.product.trendyProducts().subscribe((data) => {
       this.trendyProducts = data;
     })
-    
+    this.product.discounted().subscribe((data)=>{
+      this.discounted=data.reverse();
+    })
   }
  
 }
