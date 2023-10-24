@@ -17,24 +17,25 @@
         
         <ng-template  #content let-offcanvas>
             <div class="offcanvas-header">
-                <h4 class="offcanvas-title" id="offcanvas-basic-title"></h4>
+                <h4 class="offcanvas-title" id="offcanvas-basic-title"><a routerLink="/"><img class="farmmer" src="https://i.ibb.co/VQP5dfn/Khet-Se-Ghar.png" alt=""></a></h4>
                 <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
             </div>
             <div class="offcanvas-body">
                 
                 <div class="text-end">
                     <ul class="ul" *ngSwitchCase="'default'">
-                        <li><a class="like-button" routerLink="/">home</a></li>
-                        <li><a class="like-button" routerLink="/seller-auth">seller</a></li>
-                        <li><a class="like-button" routerLink="/user-auth">signUp/login</a></li>
-                        <li><a class="like-button" routerLink="/cart-page">cart({{cartItems}})</a></li>
-                        <li><a class="like-button" routerLink="myorders">my-orderlist</a></li>
-                        <li><a class="like-button" (click)="userLogout()">logout</a></li>
+                        <li><a class="like-button" routerLink="/"><img class="img" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="">home</a></li>
+                        <li><a class="like-button" routerLink="/seller-auth"><img src="https://cdn-icons-png.flaticon.com/512/2544/2544333.png" class="img" alt="">seller</a></li>
+                        <li><a class="like-button" routerLink="/user-auth"><img src="https://cdn-icons-png.flaticon.com/512/5599/5599504.png" class="img" alt="">login</a></li>
+                        <li><a class="like-button" routerLink="/cart-page"><img class="img" src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="">({{cartItems}})</a></li>
+                        <li><a class="like-button" routerLink="myorders"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051590.png" class="img" alt="">orderlist</a></li>
+                        <li><a class="like-button" routerLink="profile/userId"><img src="https://cdn-icons-png.flaticon.com/512/7605/7605078.png" class="img" alt="">profile</a></li>
+                        <li><a class="like-button" (click)="userLogout()"><img src="https://cdn-icons-png.flaticon.com/512/3580/3580175.png" class="img" alt="">logout</a></li>
                     </ul>
                     <ul class="ul" *ngSwitchCase="'default'">
-                        <li><a class="like-button" routerLink="seller-add-product">add product</a></li>
-                        <li><a class="like-button" routerLink="/seller-home">product list</a></li>
-                        <li><a class="like-button" (click)="logout()">logout</a></li>
+                        <li><a class="like-button" routerLink="seller-add-product"><img class="img" src="https://static.thenounproject.com/png/3658249-200.png" alt="">add product</a></li>
+                        <li><a class="like-button" routerLink="/seller-home"><img class="img" src="https://static.thenounproject.com/png/3236333-200.png" alt="">product list</a></li>
+                        <li><a class="like-button" (click)="logout()"><img class="img" src="" alt=""><img src="https://cdn-icons-png.flaticon.com/512/3580/3580175.png" class="img" alt="">logout</a></li>
                     </ul>
                 </div>
             </div>

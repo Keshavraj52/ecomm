@@ -49,7 +49,8 @@ import { ProfileComponent } from './profile/profile.component';
     HttpClientModule,
     FontAwesomeModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    
   ],
   providers: [],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],

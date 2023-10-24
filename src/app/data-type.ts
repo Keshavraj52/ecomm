@@ -19,7 +19,9 @@ export interface product{
     id:number,
     quantity:undefined|number,
     productId:undefined|number,
-    discount:number
+    discount:number,
+    image1:string
+
 }
 export interface cart{
     name:string,

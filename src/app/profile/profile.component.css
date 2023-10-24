@@ -20,6 +20,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-left: 65px;
 }
 
 .profile-photo img {
@@ -31,4 +32,8 @@ body {
 .profile-name {
     font-size: 1.5em;
     color: #333;
+    margin-left: 20px;
+}
+.kesh {
+    margin-left: 30vw;
 }

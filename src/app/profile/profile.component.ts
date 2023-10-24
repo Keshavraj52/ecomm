@@ -11,7 +11,7 @@ import { users } from '../data-type';
 })
 export class ProfileComponent implements OnInit{
   constructor(private offcanvasService: NgbOffcanvas,private user:UserService,private activeRoute:ActivatedRoute){}
-  usersdata:undefined|users
+  usersdata:undefined|users;
   
   ngOnInit(): void {
     let userId =this.activeRoute.snapshot.paramMap.get('userId')

@@ -33,3 +33,7 @@ font-size: 52px;
     padding: 10px;
     border-radius : 15px;
 }
+.picsum-img-wrapper img{
+    align-items: center;
+    width: fit-content;
+}

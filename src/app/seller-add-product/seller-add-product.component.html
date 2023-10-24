@@ -1,6 +1,7 @@
 <div class="add-product">
     <h1>add new product</h1>
-    <p class="p_message">{{addProductMessage}}</p>
+   
+    <p class="success-message">{{addProductMessage}}</p>
     <form #addproduct="ngForm" (ngSubmit)="submit(addproduct.value)" class="common-form">
         <input type="text" class="form-input" placeholder="Enter Product Name" name="name" ngModel>
         <input type="text" class="form-input" placeholder="Enter Product Price" name="price" ngModel>
@@ -9,9 +10,7 @@
         <textarea type="text" class="form-input" placeholder="Enter Product description" name="description" ngModel></textarea>
         <input type="text" class="form-input" placeholder="Enter Product image url" name="image" ngModel>
         <input type="text" class="form-input" placeholder="Enter Product discount" name="discount" ngModel>
+        <input type="text" class="form-input" placeholder="Enter Product second image url" name="image2" ngModel>
         <button class="form-button">Add product</button>
-
     </form>
-
-
 </div>
