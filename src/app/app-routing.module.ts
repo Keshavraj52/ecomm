@@ -14,6 +14,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ImageDetaComponent } from './image-deta/image-deta.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ProductDetails2Component } from './product-details2/product-details2.component';
 
 const routes: Routes = [
   {
@@ -71,6 +72,10 @@ const routes: Routes = [
   {
     component:ProfileComponent,
     path:'profile/:userId'
+  },
+  {
+    component:ProductDetails2Component,
+    path:'productde/:productId'
   }
 
 ];

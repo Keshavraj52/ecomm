@@ -22,6 +22,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImageDetaComponent } from './image-deta/image-deta.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ProductDetails2Component } from './product-details2/product-details2.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ProfileComponent } from './profile/profile.component';
     MyOrdersComponent,
     FooterComponent,
     ImageDetaComponent,
-    ProfileComponent
+    ProfileComponent,
+    ProductDetails2Component
   ],
   imports: [
     BrowserModule,

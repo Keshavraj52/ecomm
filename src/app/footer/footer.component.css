@@ -5,10 +5,10 @@ body {
   
   /* Footer Styles */
   .ecommerce-footer {
-    background-color: #333;
+    background-color: #212121;
     color: #fff;
     padding: 40px 0;
-    margin-top: 800px;
+    margin-top: 900px;
     display: block;
     margin-bottom: 0px;
     width: 100vw;
@@ -61,5 +61,19 @@ body {
     .ecommerce-footer {
       text-align: center;
     }
-}
+  }
+  .logo {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 45px;
+    height: 40px;
+    color: #3498db; /* Blue color, feel free to choose your own */
+    text-transform: uppercase;
+  }
+  
+  .logo:hover {
+    color: #ff6347; /* Change color on hover, this is a coral shade */
+  }
+  
   

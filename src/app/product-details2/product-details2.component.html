@@ -4,16 +4,14 @@
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">
                     <img src="{{productdata.image}}" alt="Random first slide" />
-                </div>
-                
+                </div>               
             </ng-template>
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">
                     <img src="{{productdata.image1}}" alt="Random second slide" />
-                </div>
-               
-            </ng-template>           
-        </ngb-carousel>  
+                </div>       
+            </ng-template>    
+        </ngb-carousel>         
        </div>
     <div class="col-sm-6">
         <div class="details">
@@ -34,13 +32,14 @@
             <ngb-rating class="rate" [max]="5" (click)="getrateing()" [formControl]="ratingcontrol"></ngb-rating>
         </div>
     </div>
+
 </div>   
 <div class="product-list-wrapper">
 	<h1>Deals on related products </h1>
 	<div class="row treandy">
 		<div class="col-sm-3" *ngFor="let item of trendyProducts">
 			<div class="product-item">
-				<a routerLink="/productde/{{item.id}}"  ><a > <img src="{{item.image}}" alt=""></a></a>
+				<a routerLink="/details/{{item.id}}"  ><a  > <img src="{{item.image}}" alt=""></a></a>
 				<div class="product-details">
 				 	 <h6 class="product-head">{{item.name}}</h6>
 					<div class="product-price">
@@ -48,9 +47,7 @@
 					</div>
 				 
 					<div class="product-footer">
-                        <a   routerLink="/productde/{{item.id}}" class="cta-button"> Discover More</a>
-
-                                                          
+                        <a  routerLink="/details/{{item.id}}" class="cta-button"> Discover More</a>                                 
                     </div>
 				</div>
 			</div>

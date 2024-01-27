@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { cart, product } from '../data-type';
@@ -6,11 +6,11 @@ import { FormControl } from '@angular/forms';
 declare var Razorpay: any;
 
 @Component({
-  selector: 'app-product-details',
-  templateUrl: './product-details.component.html',
-  styleUrls: ['./product-details.component.css']
+  selector: 'app-product-details2',
+  templateUrl: './product-details2.component.html',
+  styleUrls: ['./product-details2.component.css']
 })
-export class ProductDetailsComponent implements OnInit{
+export class ProductDetails2Component {
   productdata:undefined|product;
   productQuantity:number=1;
   removeCart=false;
@@ -145,7 +145,4 @@ this.totalrating +=this.ratingcontrol?.value || 0
 
     Razorpay.open(RozarpayOptions,successCallback, failureCallback)
   }
-
-
-
 }

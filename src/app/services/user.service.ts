@@ -2,6 +2,7 @@ import { EventEmitter, Injectable } from '@angular/core';
 import { login, signUp, users } from '../data-type';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -41,6 +42,12 @@ export class UserService {
   }
   getuser(id:string){
     return this.http.get<users>('http://localhost:3000/users')
+  }
+  private apiUrl = 'http://localhost:3000/users?id=1';
+
+
+  getUsers(): Observable<users> {
+    return this.http.get<users>(this.apiUrl);
   }
 }
 
